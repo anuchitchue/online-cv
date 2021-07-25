@@ -8,7 +8,12 @@
     {% endif %}
 
     {% if sidebar.name %}
-    <h2 class="name">{{ sidebar.name }}</h2>
+    <style>
+    h1.increase {
+       font-size: 15px;
+}
+</style>
+    <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
     {% if sidebar.tagline %}
